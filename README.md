@@ -56,6 +56,13 @@ Contributions are welcome! Please create a pull request or report issues.
 ## License
 This project is licensed under the MIT License.
 
-## Contact
-For any inquiries, reach out via email at [omkarpawar1880@gmail.com].
+## 📧 Contact :
+Feel free to reach out with questions, feedback, or ideas!
+
+- Email: [indrajeet101101@gmail.com].
+- LinkedIn: [https://www.linkedin.com/in/indrajeet-webdeveloper?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app].
+
+
+
+🏆🌟Thank you for exploring the Connect Four Game repository! Have fun playing! 🕹️🎉
 
