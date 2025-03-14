@@ -39,7 +39,29 @@ The trained model can be deployed using Flask:
 - Visual insights are displayed for better interpretation.
 
 ## 📂 Project Structure
+```
+📁 EPBL_AIML_PROJECT_LIVERCARE
+├── app.py
+├── static/
+│   ├── css/
+│   ├── css/  
+│   └── images/
+├── templates/
+│   ├── index.html
+│   └── page.html
+├── training/
+│   └── liver_cirrhosis.ipynb
+├── model/
+│   └── liver_model.pkl
+├── dataset/
+│   ├── HealthCareData.xlsx
+│   ├── cleaned_data.csv
+│   └── model_eval.csv
+├── requirements.txt
+└── README.md
+```
 
+└── README.md
 ## 🔮 Model Details
  **Dataset: Indian Liver Patient** [Dataset](https://www.kaggle.com/datasets/bhavanipriya222/liver-cirrhosis-prediction)
  
@@ -62,20 +84,24 @@ The trained model can be deployed using Flask:
 **🏠 Home Page**
 - ![Screenshot 2025-03-14 200258](https://github.com/user-attachments/assets/f8a7dd05-f32a-4252-a636-5e22f3fed5e6)
   
-**Prediction Page**
+**🧩Prediction Page**
 - ![Screenshot 2025-03-14 200324](https://github.com/user-attachments/assets/7fa69feb-325a-427e-8a9a-d915129bf58e)
   
-**Contact Page**
+**📮Contact Page**
 - ![Screenshot 2025-03-14 200350](https://github.com/user-attachments/assets/9dbb94df-3d46-4a13-9bc0-9b24812800ee)
 
 **🧪 Prediction Form**
 - ![Screenshot 2025-03-14 200445](https://github.com/user-attachments/assets/65dd1dfd-1d7d-4e73-81bd-6346beae9cd6)
 
 **📊 Prediction Result**
-- ![Screenshot 2025-03-10 233424](https://github.com/user-attachments/assets/9512642b-949c-4b0e-a8a5-02b1a5316108)
-- ![Screenshot 2025-03-10 233738](https://github.com/user-attachments/assets/3383a518-5b0a-44e9-83f0-e0f75834e6d8)
+
+- ![Diabetes](https://github.com/user-attachments/assets/fb10c1c6-2e26-4879-8e90-ad5cf304ff1d)
+- ![Non-Diabetes](https://github.com/user-attachments/assets/f66e1c56-cd80-423e-a26f-22c51f9e3294)
+
 
 ## 🤝 Contributing
+
+
 
 ## 📄 License
 **This project is licensed under the MIT License.**
