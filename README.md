@@ -1,17 +1,17 @@
 # Revolutionizing Liver Care: Predicting Liver Cirrhosis Using Advanced Machine Learning Techniques
+# 🧠 Revolutionizing Liver Care: Predicting Liver Cirrhosis Using ML & Flask
 
-## Overview
-Liver cirrhosis is a progressive disease characterized by liver scarring, often leading to liver failure. Early prediction of cirrhosis can improve patient outcomes by enabling timely medical intervention. This project leverages advanced machine learning techniques to predict liver cirrhosis based on clinical and laboratory data.
+**A Smart Healthcare Web Application Predict liver cirrhosis early using advanced machine learning and an interactive Flask-based interface.**
 
-## Features
-- **Data Preprocessing**: Handling missing values, feature selection, and normalization.
-- **Machine Learning Models**: Implementation of multiple ML models (e.g., Decision Trees, Random Forest, XGBoost, SVM, Neural Networks).
-- **Model Evaluation**: Performance comparison using accuracy, precision, recall, F1-score, and AUC-ROC.
-- **Visualization**: Data exploration through graphs and plots.
-- **Deployment**: Integration with a web-based UI or API for real-world usability.
+## 🔍 About the Project
+This project leverages the power of Machine Learning and Flask to help detect liver cirrhosis based on patient health metrics. By analyzing key medical indicators, the app predicts the likelihood of liver cirrhosis and aims to support early intervention and treatment planning.
 
-## Installation
-To set up the project, follow these steps:
+## ⚙️ Features
+✅ Predicts Liver Cirrhosis using patient data
+✅ Interactive and user-friendly Flask web interface
+✅ Visualized model insights (heatmaps, correlation, feature importance)
+✅ Clean and modular codebase
+✅ Easy to deploy locally or on cloud
 
 ### Prerequisites
 Ensure you have the following installed:
@@ -19,42 +19,67 @@ Ensure you have the following installed:
 - Jupyter Notebook (optional)
 - Required libraries (install - visit requirement.txt) 
 
+## 📊 Tech Stack
+- Frontend: HTML5, CSS3, Bootstrap
+- Backend: Python, Flask
+- Machine Learning: Scikit-learn, Pandas, NumPy
+- Visualization: Matplotlib, Seaborn
+- Deployment: (Render / Flask local server)
 
-## Dataset
-The dataset contains clinical and laboratory test results, including features such as:
-https://www.kaggle.com/datasets/bhavanipriya222/liver-cirrhosis-prediction
-  
-## Usage
-### 1. Data Preprocessing
-Run the preprocessing script to clean and prepare data:
-
-### 2. Train Machine Learning Models
-To train and evaluate models:
-
-### 3. Predict Liver Cirrhosis
-Use the trained model to make predictions:
-
-## Model Performance
-We evaluate the models based on:
-- **Accuracy**: Measures correct predictions.
-- **Precision & Recall**: Handles class imbalance.
-- **AUC-ROC**: Measures overall model performance.
 
 ## Deployment
 The trained model can be deployed using Flask:
+- Then, access the API at `http://127.0.0.1:5000`.
+- Project Hosting deployment link (https://epbl-livercare-flaskapp-team-ymim.onrender.com) 
 
-Then, access the API at `http://127.0.0.1:5000`.
+## 🌐 Usage
+- Launch the Flask app.
+- Enter the patient’s medical data in the form (e.g., bilirubin, albumin, etc.)
+- Submit to get a prediction on cirrhosis status.
+- Visual insights are displayed for better interpretation.
 
-## Future Work
-- Improve feature selection using deep learning.
-- Deploy as a cloud-based service.
-- Integrate with hospital management systems.
+## 📂 Project Structure
 
-## Contributing
-Contributions are welcome! Please create a pull request or report issues.
+## 🔮 Model Details
+ **Dataset: Indian Liver Patient** [Dataset](https://www.kaggle.com/datasets/bhavanipriya222/liver-cirrhosis-prediction)
+ 
+**Algorithms Used:**
+- Linear Regression
+- Logistic Regression
+- Linear Discriminant Analysis
+- Classification and Regression Trees
+- Naive Bayes
+- K-Nearest Neighbors (KNN)
+- Random Forest
+- Boosting and AdaBoost
 
-## License
-This project is licensed under the MIT License.
+**Best Model Accuracy:**
+
+![Screenshot 2025-03-10 234000](https://github.com/user-attachments/assets/06feb86a-f5c2-46c3-ba54-6f49767dea41)
+![Screenshot 2025-03-10 234035](https://github.com/user-attachments/assets/4fb2dde3-ceb1-423f-8ee4-2ff12d0128c4)
+
+## 📸 Screenshots
+**🏠 Home Page**
+- ![Screenshot 2025-03-14 200258](https://github.com/user-attachments/assets/f8a7dd05-f32a-4252-a636-5e22f3fed5e6)
+  
+**Prediction Page**
+- ![Screenshot 2025-03-14 200324](https://github.com/user-attachments/assets/7fa69feb-325a-427e-8a9a-d915129bf58e)
+  
+**Contact Page**
+- ![Screenshot 2025-03-14 200350](https://github.com/user-attachments/assets/9dbb94df-3d46-4a13-9bc0-9b24812800ee)
+
+**🧪 Prediction Form**
+- ![Screenshot 2025-03-14 200445](https://github.com/user-attachments/assets/65dd1dfd-1d7d-4e73-81bd-6346beae9cd6)
+
+**📊 Prediction Result**
+- ![Screenshot 2025-03-10 233424](https://github.com/user-attachments/assets/9512642b-949c-4b0e-a8a5-02b1a5316108)
+- ![Screenshot 2025-03-10 233738](https://github.com/user-attachments/assets/3383a518-5b0a-44e9-83f0-e0f75834e6d8)
+
+## 🤝 Contributing
+
+## 📄 License
+**This project is licensed under the MIT License.**
+ 
 
 ## 📧 Contact :
 Feel free to reach out with questions, feedback, or ideas!
@@ -64,5 +89,5 @@ Feel free to reach out with questions, feedback, or ideas!
 
 
 
-🏆🌟Thank you for exploring the Connect Four Game repository! Have fun playing! 🕹️🎉
+🏆🌟Thank you for exploring the Connect Four Game repository! Have fun playing! 🕹️🎉 
 
